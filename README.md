@@ -11,3 +11,5 @@ It combines deep learning–based segmentation with post-processing, mesh genera
 5. **Post-Processing & Mesh Generation** – Binary masks are refined using morphological operations and Gaussian filtering. A 3D mesh is generated and repaired for centreline extraction.
 
 *Transfer between HPC and local computer** You need to transfer the lif images to the HPC and the final mesh + volumetric readouts to your local computer. There are different ways of transferring, example to trasnfer from local computer to HPC: `scp -r "path to file" ID@login.hpc.ic.ac.uk:/rds/general/user/ID/home/foldertostoretheimage` 
+
+<img width="879" height="600" alt="Screenshot 2025-08-12 at 12 54 01" src="https://github.com/user-attachments/assets/868aec01-0c50-4e1d-a734-31c3ec564293" />
