@@ -1,0 +1,14 @@
+name: vesselmet3d-training
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.8
+  - pytorch=2.7.1
+  - torchvision=0.22.1
+  - pytorch-cuda=12.4   # adjust to match your HPC CUDA version
+  - pip
+  - pip:
+      - nnunetv2
